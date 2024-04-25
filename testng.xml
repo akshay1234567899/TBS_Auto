@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners><listener class-name="ExtentReport.Listener"></listener></listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/akshay/Documents/JavaNewOne/OrangeHRMFrameWork">
+        <classes>
+            <class name="TestCases.LoginPageTest"></class>
+<!--            <class name="TestCases.CreateAccountTest"></class>-->
+            <class name="TestCases.AddItemOnCartPage"></class>
+            <class name="TestCases.CheckOutPageTest"></class>
+            <class name="TestCases.GuestUser"></class>
+            <class name="TestCases.PaymentPageTest"></class>
+            <class name="TestCases.GuestUserDeliveryOrder"></class>
+
+        </classes>
+    </test>
+</suite>
